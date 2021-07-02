@@ -23,9 +23,9 @@ Users should be able to:
 
 ### Screenshot
 
-(https://github.com/Ahmad-Kanj/Frontend-Mentor-Single-price-grid-component/blob/main/Screenshot_1.png)
+![](https://github.com/Ahmad-Kanj/Frontend-Mentor-Single-price-grid-component/blob/main/Screenshot_1.png)
 
-![](https://github.com/Ahmad-Kanj/Frontend-Mentor-Single-price-grid-component/blob/main/Screenshot_2.png)
+(https://github.com/Ahmad-Kanj/Frontend-Mentor-Single-price-grid-component/blob/main/Screenshot_2.png)
 
 ### Links
 
