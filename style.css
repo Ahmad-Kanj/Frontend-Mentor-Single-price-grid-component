@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.container {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 215px 1fr;
+  align-items: center;
+  justify-items: center;
+  width: 635px;
+  height: 475px;
+  border-radius: 10px;
+}
+
+.community {
+  padding: 40px 42px;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 2;
+  border-radius: 10px 10px 0 0;
+}
+
+.title {
+  font-weight: 700;
+  color: #4abebd;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: hsl(71, 73%, 54%);
+}
+
+.comcontent {
+  color: hsl(218, 22%, 67%);
+  font-size: 1rem;
+  line-height: 25px;
+}
+
+.sub {
+  padding: 42px 40px;
+  height: 100%;
+  width: 100%;
+  background-color: #2bb3b1;
+  border-radius: 0 0 0 10px;
+}
+
+.subscribetitle {
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 18px;
+}
+
+.price {
+  font-weight: 700;
+  align-items: center;
+  display: flex;
+  color: #69d3d4;
+  margin-bottom: 5px;
+}
+
+.priceNumber {
+  font-size: 2rem;
+  color: white;
+  margin-right: 10px;
+}
+
+.subcontent {
+  color: white;
+  margin-bottom: 35px;
+}
+
+.signup {
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+  height: 2.8125rem;
+  width: 15rem;
+  border: none;
+  border-radius: 5px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .signup:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}
+
+.signup:active {
+  filter: brightness(1.1);
+}
+
+.why {
+  padding: 40px 40px;
+  background-color: #4abebd;
+  height: 100%;
+  width: 100%;
+  border-radius: 0 0 10px 0;
+}
+
+.whytitle {
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.why li {
+  margin-bottom: 3px;
+  font-size: 0.9rem;
+  color: #cae8e9;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    align-items: flex-start;
+    margin: 80px 0;
+  }
+  .container {
+    width: 85vw;
+    max-width: 350px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .community {
+    padding: 30px;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+  .subtitle {
+    font-size: 0.85rem;
+    padding-right: 20px;
+  }
+  .comcontent {
+    font-size: 0.78rem;
+  }
+  .sub {
+    padding: 30px;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .signup {
+    align-self: center;
+    width: 250px;
+  }
+
+  .why {
+    padding: 25px;
+    border-radius: 0 0 10px 10px;
+  }
+}
